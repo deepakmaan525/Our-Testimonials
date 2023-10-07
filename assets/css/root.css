@@ -1,0 +1,48 @@
+:root{
+    /* font-size */
+    --fs-sm:17px;
+    --fs-md:18px;
+    --fs-lg:24px;
+    --fs-xl:44px;
+
+    /* font-weight */
+    --fw-900:900;
+
+    /* colors */
+    --black:#1E1E1E;
+    --yellow:#FACA10;
+    --light-yellow:#FDEA9F;
+    --yellow4F:#FCDB4F;
+    
+}
+/* Font size */
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+
+/* color */
+.text_black{
+    color: var(--black);
+}
+.text_yellow{
+    color: var(--yellow);
+}
+.text_light-yellow{
+    color: var(--light-yellow);
+}
+.text_yellow{
+    color: var(--yellow4F);
+}
+/* font-weight */
+.fw-900{
+    font-weight: var(--fw-900);
+}
